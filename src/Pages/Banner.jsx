@@ -5,9 +5,9 @@ import bannerImg from './runners-silhouettes-athletes-fitness-39308.jpeg'
 const Banner = () => {
     return (
         <>
-            <section id="banner" className=" flex-col mt-16 mb-10 md:pt-24 md:pb-20 flex content-center items-center justify-center ">
+            <section id="banner" className=" flex-col pt-16 mb-10 md:pt-24 md:pb-20 flex content-center items-center justify-center ">
                     <div className='w-full flex'>
-                        <img src={bannerImg} height="600" className=' w-full'/>
+                        <img src={bannerImg} height="600" width='400' className=' w-full'/>
                         {/* <span className='absolute top-0 opacity-75 bg-black w-full h-full '></span> */}
                     </div> 
                 <div className="text-conatiner absolute mx-auto">
