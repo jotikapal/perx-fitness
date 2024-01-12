@@ -15,7 +15,7 @@ const Timeline = () => {
                             Nam lacinia elit in lacus efficitur posuere. Phasellus ac mi vel justo interdum dictum.</p>
                     </div>
                     <div className='relative mt-12 items-center w-full text-left'>  {/* wrap overflow-hidden */}
-                        <div className='border-2-2 absolute center border-opacity-20 border-gray-700 h-full border ' ></div>  {/*style="left:50%" */}
+                        {/* <div className='border-2-2 absolute center border-opacity-20 border-gray-700 h-full border ' ></div>  style="left:50%" */}
 
                         <div className='mb-8 flex justify-between items-center w-full'>
                             <div className='order-1 w-5/12'></div>
