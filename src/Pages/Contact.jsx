@@ -25,8 +25,8 @@ const Contact = () => {
                         <div className='flex flex-wrap w-11/12 md:w-6/12 sm:w-10/12 justify-center '> {/* lg:mt-64 mt-48 */}
                             <div className='w-full lg:w-6/12 px-4 bg-orange-500 flex-auto p-4 lg:p-10 text-gray-200'>
                                 <p className='leading-relaxed mt-1 mb-4 text-gray-200 '>Ready to get started on your fitness journey? Simply fill out the fields below, and we'll be in touch shortly to discuss how we can help you achieve your goals.</p>
-                                <form action="https://api.web3forms.com/submit" method="POST">
-                                    <input type="hidden" name="access_key" value="7c720be2-7766-4eae-b17f-1bdd8dce2112"></input>
+                                {/* <form action="https://api.web3forms.com/submit" method="POST">
+                                    <input type="hidden" name="access_key" value="7c720be2-7766-4eae-b17f-1bdd8dce2112"></input> */}
                                     <div className='w-full mb-3 mt-8'>
                                         <label className='uppercase text-xs font-bold mb-2 text-gray-200 ' for="full-name">Name</label>
                                         <input className='px-3 py-3 text-black bg-white rounded text-sm shadow w-full' id='full-name' type='text' placeholder='Name' />
@@ -42,7 +42,7 @@ const Contact = () => {
                                     <div className='justify-center flex'>
                                         <button className='bg-gray-900 text-white active:bg-gray-700 mr-1 mb-1 rounded px-6 py-3 shadow font-bold uppercase text-sm hover:shadow-lg' type='submit'>Send Message</button>
                                     </div>
-                                </form>
+                                {/* </form> */}
                             </div>
                         </div>
                     </div>
