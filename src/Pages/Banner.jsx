@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import bannerImg from './runners-silhouettes-athletes-fitness-39308.jpeg'
+import { Link } from 'react-scroll'
 
 
 const Banner = () => {
@@ -15,7 +16,8 @@ const Banner = () => {
                         <div className='text-fit-container w-full px-4 text-center'>
                             <h1 className='text-white font-semibold text-5xl'>Ready for a <span className='text-orange-500'>Change</span></h1>
                             <p className='mt-4 text-lg text-gray-300 '>Start now with our customized fitness program</p>
-                            <button className='text-white mt-2 inline-block bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:outline-none font-medium text-xl rounded-lg px-3 py-1.5 md:px-5 md:py-2.5 text-center mr-3  '>Stories</button>
+                            <button className='text-white mt-2 inline-block bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:outline-none font-medium text-xl rounded-lg px-3 py-1.5 md:px-5 md:py-2.5 text-center mr-3 '>
+                            <Link to='stories' smooth={true} duration={600}>Stories</Link></button>
                         </div>
                     </div>
                 </div>

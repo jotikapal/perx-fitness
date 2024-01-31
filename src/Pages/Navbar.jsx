@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
+    // https://perx-fitness.netlify.app/
     const [showMenu, setShowMenu] = useState(false)
     const [isMobile, setIsMobile] =useState(false)
 
